@@ -1,0 +1,9 @@
+a:5:{i:0;s:247:"Error in file: "C:\wamp64\www\projeto_paglegal\Magento-CE-1.9.3.1-master\app\code\local\PagLegal\CustomPayMethod\sql\custompaymethod_setup\install-1.0.0.0.php" - SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'custom_field_one'";i:1;s:1208:"#0 C:\wamp64\www\projeto_paglegal\Magento-CE-1.9.3.1-master\app\code\core\Mage\Core\Model\Resource\Setup.php(644): Mage::exception('Mage_Core', 'Error in file: ...')
+#1 C:\wamp64\www\projeto_paglegal\Magento-CE-1.9.3.1-master\app\code\core\Mage\Core\Model\Resource\Setup.php(421): Mage_Core_Model_Resource_Setup->_modifyResourceDb('install', '', '1.0.0.0')
+#2 C:\wamp64\www\projeto_paglegal\Magento-CE-1.9.3.1-master\app\code\core\Mage\Core\Model\Resource\Setup.php(327): Mage_Core_Model_Resource_Setup->_installResourceDb('1.0.0.0')
+#3 C:\wamp64\www\projeto_paglegal\Magento-CE-1.9.3.1-master\app\code\core\Mage\Core\Model\Resource\Setup.php(235): Mage_Core_Model_Resource_Setup->applyUpdates()
+#4 C:\wamp64\www\projeto_paglegal\Magento-CE-1.9.3.1-master\app\code\core\Mage\Core\Model\App.php(428): Mage_Core_Model_Resource_Setup::applyAllUpdates()
+#5 C:\wamp64\www\projeto_paglegal\Magento-CE-1.9.3.1-master\app\code\core\Mage\Core\Model\App.php(354): Mage_Core_Model_App->_initModules()
+#6 C:\wamp64\www\projeto_paglegal\Magento-CE-1.9.3.1-master\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#7 C:\wamp64\www\projeto_paglegal\Magento-CE-1.9.3.1-master\index.php(83): Mage::run('', 'store')
+#8 {main}";s:3:"url";s:89:"/index.php/admin/system_config/edit/section/payment/key/127ba7155a07084c2c0d49d787f142f9/";s:11:"script_name";s:10:"/index.php";s:4:"skin";s:7:"default";}

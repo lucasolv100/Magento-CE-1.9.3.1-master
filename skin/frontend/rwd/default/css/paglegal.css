@@ -1,0 +1,32 @@
+.textopaglegal
+{
+	display: block;
+	font-size: 12px;
+	font-weight: 700;
+}
+#dt_method_custompaymentmethod label
+{
+	background: #ffdf95;
+	color: #333;
+}
+/* customização para celulares e tablets */
+@media only screen and (max-width: 710px) {
+	input#cpf
+	{
+		width: 100%;
+		text-align: center;
+	}
+}
+/* customização para desktops e tablets deitaddos */
+@media only screen and (min-width: 710px) {
+	input#cpf
+	{
+		width: 32%;
+		text-align: center;
+	}
+}
+#checkout-payment-method-load
+{
+	border: 1px solid #99cce5;
+	padding: 15px;
+}
